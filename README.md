@@ -21,33 +21,36 @@ The outputs for the 2017 and 2018 refactored analysis matched that of the initia
 
 See the 2017 and 2018 initial analysis elapsed time results below.
 
-![Elapsed_Time 2017_Original]()
+![Elapsed_Time 2017_Original](https://github.com/rloufoster/Stock_Analysis/blob/main/Resources/Elapsed_Time_2017Original.png?raw=true)
 
 
 
-![Elapsed_Time 2018 Original]()
+![Elapsed_Time 2018 Original](https://github.com/rloufoster/Stock_Analysis/blob/main/Resources/Elapsed_Time_2018Original.png?raw=true)
 
 
 
 See the 1017 and 2018 refactored analysis elapsed time results below.
 
-![Elapsed Time 2017 Refactored]()
+![Elapsed Time 2017 Refactored](https://github.com/rloufoster/Stock_Analysis/blob/main/Resources/ELapsed_Time_2017Refactored.png?raw=true)
 
 
-
-![Elapsed Time 2018 Refactored]()
-
+![Elapsed Time 2018 Refactored](https://github.com/rloufoster/Stock_Analysis/blob/main/Resources/Elapsed_Time_2018Refactored.png?raw=true)
 
 
 
 ## Summary
 
-#### Pros and Cons of Refactoring Code
+##### The advantages of code refactoring are:
 
-Refactoring helps make our code cleaner and more organized. A few advantages of a cleaner code include design and software improvement, debugging, and faster programming. It may also benefit other users who view our projects because it becomes easier to read, as it is more concise and straightforward. However, we do not always have the luxury to refactor our code due to disadvantages. These disadvantages may range from having applications that are too large to not having the proper test cases for the existing codes, which may ultimately pose some risk if we try to refactor our code.
+**Extensible Code:** Code refactoring makes the code more extensible for adding on many other functions.  It also helps in increasing the flexibility of the code and by this the capability of code increases.
+**Maintainability:** After refactoring, the code is fresher, easier to understand or read, less complex and easier to maintain.  It also allows for it to be easily comprehended by the next programmer.
+
+##### The disadvantages of code refactoring are:
+
+**Time Consuming:** You may have no idea how much time it may take to complete the process. It may also land you into a situation where you have not idea where to go.
+**Chance of Mistakes:** In things go badly, you will introduce bugs and you will waste much more time solving the problem.
 
 #### The Advantages of Refactoring Stock Analysis 
 
-The biggest benefit that occurred as a result of the refactoring was an decrease in macro run time. The original analysis took approximately one second to run, whereas our new analysis only took about a four of the time (approximately 0.25 seconds) to run. Attached below are the screenshots that indicate the run time for our new analysis.
+The biggest benefit that occurred as a result of the refactoring this particular code was the decrease in elaspsed runtime.  Since this was a short Macro, the advantage cleaner more efficient code outweighed the risk of the chance of introducing bugs or wasting a lot of time.
 
-Add png's of elapsed times here!!!
