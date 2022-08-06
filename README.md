@@ -1,5 +1,5 @@
-# Stock_Analysis
-Analyzing green stocks using VBA
+# Analysis of Green Stocks Using VBA and Excel
+
 
 ## Objective
 
@@ -12,14 +12,21 @@ Initially, the client presented to me two excel worksheets with green stocks dat
 
 ### Method
 
+The Module 2 VBA Macro Script was refactored so that the code was only looped through one time and all the information was collected in that one loop.
 
-
-
+* Created tickerIndex set = to zero
+* Created arrays for tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices
+* Used tickerIndex to access the stock ticker index for the tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices arrays.
+* The script loops through stock data, reading and storing all of the following values from each row: tickers, tickerVolumes,              tickerStartingPrices, and tickerEndingPrices.
+* Created working code for formatting the cells in the spreadsheet
+* Created comments to explain the code
+* Screenshot outputs for both stock analyses in the VBA_Challenge.xlsm along with the stock analyses for the original code.  Also included the run time pop-up messages for all four outputs.  See Results section.
+  
 ## Results
 
 The outputs for the 2017 and 2018 refactored analysis matched that of the initial analysis, but the Macros ran much faster and therefore, more efficiently. 
 
-See the 2017 and 2018 initial analysis elapsed time results below.
+**See the 2017 and 2018 initial analysis elapsed time results below.**
 
 ![Elapsed_Time 2017_Original](https://github.com/rloufoster/Stock_Analysis/blob/main/Resources/Elapsed_Time_2017Original.png?raw=true)
 
@@ -29,7 +36,7 @@ See the 2017 and 2018 initial analysis elapsed time results below.
 
 
 
-See the 1017 and 2018 refactored analysis elapsed time results below.
+**See the 1017 and 2018 refactored analysis elapsed time results below.**
 
 ![Elapsed Time 2017 Refactored](https://github.com/rloufoster/Stock_Analysis/blob/main/Resources/ELapsed_Time_2017Refactored.png?raw=true)
 
@@ -40,17 +47,17 @@ See the 1017 and 2018 refactored analysis elapsed time results below.
 
 ## Summary
 
-##### The advantages of code refactoring are:
+### The advantages of code refactoring are:
 
 **Extensible Code:** Code refactoring makes the code more extensible for adding on many other functions.  It also helps in increasing the flexibility of the code and by this the capability of code increases.
 **Maintainability:** After refactoring, the code is fresher, easier to understand or read, less complex and easier to maintain.  It also allows for it to be easily comprehended by the next programmer.
 
-##### The disadvantages of code refactoring are:
+### The disadvantages of code refactoring are:
 
 **Time Consuming:** You may have no idea how much time it may take to complete the process. It may also land you into a situation where you have not idea where to go.
 **Chance of Mistakes:** In things go badly, you will introduce bugs and you will waste much more time solving the problem.
 
-#### The Advantages of Refactoring Stock Analysis 
+### The Advantages of Refactoring this Stock Analysis 
 
 The biggest benefit that occurred as a result of the refactoring this particular code was the decrease in elaspsed runtime.  Since this was a short Macro, the advantage cleaner more efficient code outweighed the risk of the chance of introducing bugs or wasting a lot of time.
 
